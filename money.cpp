@@ -21,9 +21,9 @@ void multiplyMoney(money& prod, unsigned short int count) {
 
 void aroundMoney(money& total) {
     if (total.kop % 10 < 5)
-        total.kop = (total.kop / 10) * 10;
-    else {
         total.kop = (total.kop / 10 + 1) * 10;
+    else {
+        total.kop = (total.kop / 10) * 10;
         if (total.kop >= 100) {
             total.grn++;
             total.kop = 0;

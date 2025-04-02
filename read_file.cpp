@@ -14,7 +14,7 @@ void printCal() {
     money total{0, 0};
     string line;
 
-    regex rgx("(\\d+)\\s*грн\\s*(\\d{1,3})\\s*коп\\s*,\\s*(\\d+)\\s*шт");
+    regex rgx("(\\d+)\\s*грн\\s*(\\d+)\\s*коп\\s*,\\s*(\\d+)\\s*шт");
 
     while (getline(File, line)) {
         smatch match;
