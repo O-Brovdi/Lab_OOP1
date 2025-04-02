@@ -2,7 +2,7 @@
 #define MONEY_H
 
 struct money {
-    unsigned grn;
+    unsigned int grn;
     unsigned short int kop;
 };
 
